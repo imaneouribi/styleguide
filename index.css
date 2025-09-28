@@ -1,0 +1,104 @@
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+h1 {
+    font-size: 50px;
+    margin: 10px;
+}
+.colors, .fonts, .textstyles {
+    border: #ffb6c1 3px solid ;
+    width: 800px;
+    height: auto;
+    padding: 20px;
+    margin: 10px auto;
+}
+.items {
+    display: block;
+    align-items: flex-start;
+    gap: 20px; 
+    margin: 20px;
+}
+
+.panel, .fonttype {
+    
+    display: inline-block;
+    margin: 10px;
+}
+
+#pink1 {
+    background-color: #ffb6c1;
+}
+#pink2 {
+    background-color: #f72b6b;
+}
+#pink3 {
+    background-color: #ff0a85;
+}
+
+#pink1, #pink2, #pink3 {
+    color: white;
+    width: 200px;
+    height: 150px;
+    display: grid;
+    place-items: center;
+    }
+
+.color-name {
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.color-number {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    margin: 0;
+}
+h3 {
+    text-decoration: underline;
+}
+.bold {
+    font-weight: bold;
+}
+.italic {
+    font-style: italic;
+}
+.susemono p {
+    font-family: 'SUSE Mono', monospace;
+}
+.roboto p {
+    font-family: 'Roboto', sans-serif;
+}
+.alansans p {
+    font-family: "Alan Sans", sans-serif;
+}
+
+.textstyles {
+    text-align: left;
+}
+
+.h1-style h1 {
+    font-family: "Roboto";
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+.h2-style h2 {
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: bold;
+    
+}
+.h3-style h3 {
+    font-family: "Alan Sans";
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+.pstyle p {
+    font-size: 12px;
+    font-family: "SUSE mono";
+}
